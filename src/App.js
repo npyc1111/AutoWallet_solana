@@ -47,8 +47,8 @@ function App () {
     'ALICE': '6E4WcCGK3JtuKLvYxakv9uwmscehtRQotKiW9oyvYdAr',
     'DAVID': '0xae26fC8A9A3396a309e57963834457681f473C2D'
   }
-  const BobPriKey = '58rqA4KBvGYQFGrCbYaezr1iSJ9r6LrktLo5Z5JEvUzrZPn5YAGGyHZpyh2fMDSGGGjKkwcHMpL3C1YmpQz2DwUK';
-  //'BOB': '0x57b8AeEcD8a396856C64ffcB442d13CA382e6Ce4',
+  const BobPriKey = '000'; // input your private key.
+  
   const handleProof = result => {
     return new Promise(resolve => {
       setTimeout(() => resolve(), 3000)
